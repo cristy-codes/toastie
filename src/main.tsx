@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Home from "./Home";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    Use this to run a local development environment of the library for testing
+    <Home></Home>
   </React.StrictMode>
 );

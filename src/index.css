@@ -1,0 +1,19 @@
+.t-toaster {
+    
+}
+
+.t-danger {
+    border: 1px solid red;
+}
+
+.t-warning {
+    border: 1px solid yellow;
+}
+
+.t-success {
+    border: 1px solid green;
+}
+
+.t-info {
+    border: 1px solid blue;
+}

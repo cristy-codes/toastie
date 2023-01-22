@@ -1,27 +1,79 @@
-.t-toaster {
-  min-width: 300px;
-  min-height: 75px;
-  padding: 10px;
+.t-toastie-container {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.t-toaster {
+  /* position: absolute; */
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 25px;
+  padding: 10px;
   background-color: white;
   box-shadow: 5px 5px 10px #d4d6d6, -5px -5px 10px #ffffff;
   border-radius: 8px;
+  font-family: inherit;
+}
+
+.t-body {
+  display: flex;
+  gap: 6px;
+}
+
+.t-body__content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.t-message {
+  font-size: 14px;
+}
+
+.t-description {
+  font-size: 14px;
+  color: #868e96;
+}
+
+.t-close {
+  all: unset;
+  height: min-content;
+  align-self: center;
+  top: 8px;
+  right: 12px;
+  background-color: transparent;
+  border: unset;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.t-close::after {
+  display: inline-block;
+  content: "\00d7"; /* This will render the 'X' */
+}
+
+.t-close:hover {
+  background-color: #efeff0;
 }
 
 .t-danger {
-  border-left: 3px solid red;
+  border-left: 3px solid #ff6b6b;
 }
 
 .t-warning {
-  border-left: 3px solid yellow;
+  border-left: 3px solid #f9c219;
 }
 
 .t-success {
-  border-left: 3px solid green;
+  border-left: 3px solid #1fc493;
 }
 
 .t-info {
-  border-left: 3px solid blue;
+  border-left: 3px solid #5c7cfa;
 }
 
 .t-position__top {

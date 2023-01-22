@@ -1,19 +1,41 @@
 .t-toaster {
-    
+  min-width: 300px;
+  min-height: 75px;
+  padding: 10px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 5px 5px 10px #d4d6d6, -5px -5px 10px #ffffff;
+  border-radius: 8px;
 }
 
 .t-danger {
-    border: 1px solid red;
+  border-left: 3px solid red;
 }
 
 .t-warning {
-    border: 1px solid yellow;
+  border-left: 3px solid yellow;
 }
 
 .t-success {
-    border: 1px solid green;
+  border-left: 3px solid green;
 }
 
 .t-info {
-    border: 1px solid blue;
+  border-left: 3px solid blue;
+}
+
+.t-position__top {
+  top: 0;
+}
+
+.t-position__bottom {
+  bottom: 0;
+}
+
+.t-side__right {
+  right: 0;
+}
+
+.t-side__left {
+  left: 0;
 }

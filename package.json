@@ -1,6 +1,6 @@
 {
   "name": "cristy-toastie",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple toaster",
   "license": "ISC",
   "main": "dist/index.cjs.js",

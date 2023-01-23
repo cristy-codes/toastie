@@ -7,7 +7,7 @@ const Home = () => {
         onClick={() =>
           toastie({
             description:
-              "You are now obligated to give a star to Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHubto Mantine project on GitHub",
+              "You are now obligated to give a star ",
             message: `we notify you that ${performance.now()}`,
             position: "bottom",
             positionOffset: 50,
